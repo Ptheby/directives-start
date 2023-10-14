@@ -8,11 +8,11 @@ import { Directive,
   } from '@angular/core';
 
 @Directive({
-  selector: '[appBetterHiglight]'
+  selector: '[appBetterHighlight]'
 })
 export class BetterHiglightDirective implements OnInit {
   @Input () defaultColor:string= 'transparent';
-  @Input () highlightColor:string= 'blue';
+  @Input ('appBetterHighlight') highlightColor:string= 'blue';
   @HostBinding('style.backgroundColor') backgroundColor:string;
 
 
