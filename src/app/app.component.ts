@@ -10,8 +10,8 @@ export class AppComponent {
   oddNumbers= [1,3,5];
   evenNumbers=[2,4,6,8];
   onlyOdd = false;
-
+  value= 5;
   toggle() {
-    this.onlyOdd=!this.onlyOdd   //onlyOdd needs to equal what it doesn't already equal, thus toggling back and forth, the opposite of whateber it currently is/ 
+    this.onlyOdd=!this.onlyOdd   //onlyOdd needs to equal what it doesn't already equal, thus toggling back and forth, the opposite of whateber it currently is/
   }
 }
